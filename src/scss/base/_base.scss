@@ -1,0 +1,31 @@
+@use "../abstracts" as a;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6.5rem, 11vw);
+  line-height: 1.2;
+  font-weight: 700;
+  color: a.$black;
+  margin-bottom: 56px;
+}
+
+p {
+  line-height: 1.4;
+  margin: 4px 0;
+  color: a.$black;
+}
+
+code {
+  font-size: 92.5%;
+  color: #9a3e24;
+  word-break: break-word;
+  border: 0 solid #e7e7e7;
+  padding: 0 3px;
+  background: papayawhip;
+  .info {
+    background: aliceblue;
+  }
+}
