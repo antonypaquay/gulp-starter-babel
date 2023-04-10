@@ -11,7 +11,7 @@
     "gulp",
     "javascript",
     "babel",
-    "commonjs"
+    "esmodules"
   ],
   "author": "Antony Paquay",
   "license": "ISC",
