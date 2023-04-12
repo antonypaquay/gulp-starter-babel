@@ -1,6 +1,6 @@
 {
   "name": "gulp-starter-babel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Initialized your Javascript project using Babel and ES6 Modules",
   "main": "app.js",
   "scripts": {
@@ -16,12 +16,14 @@
   "author": "Antony Paquay",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
     "autoprefixer": "^10.4.14",
     "browser-sync": "^2.29.1",
     "cssnano": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-better-rollup": "^4.0.1",
+    "gulp-notify": "^4.0.0",
     "gulp-postcss": "^9.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
@@ -32,5 +34,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "sass": "^1.61.0"
   },
-  "presets": ["@babel/preset-env"]
+  "presets": [
+    "@babel/preset-env"
+  ]
 }
